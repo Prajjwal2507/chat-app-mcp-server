@@ -1,0 +1,5 @@
+fastmcp
+httpx
+uvicorn
+starlette
+sse-starlette
