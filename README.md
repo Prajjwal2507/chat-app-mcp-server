@@ -10,6 +10,9 @@ It bridges AI agents (e.g., Claude Desktop) to the chat backend, letting them au
 
 > **TL;DR** – Add the JSON snippet below to your Claude Desktop configuration and restart the app.
 
+> **⚠️ Important Note on Cold Starts:** 
+> This MCP server is hosted on a free tier instance on Render, which spins down after periods of inactivity. Before configuring the MCP server locally, please wake it up by visiting **[this link](https://chat-app-mcp-server.onrender.com/)**. *(Don't worry if it says "Not Found"—that just means the server is awake and ready!)*
+> 
 ### 1️⃣ Open the Config File
 
 1. Open **Claude Desktop**.
